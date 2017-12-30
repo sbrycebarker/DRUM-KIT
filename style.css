@@ -17,8 +17,44 @@ body,html {
   justify-content: center;
 }
 
+/* #A {
+ background-color: red;
+}
+
+#S {
+ background-color: Blue;
+}
+
+#D {
+ background-color: Green;
+}
+
+#F {
+ background-color: Yellow;
+}
+
+#G {
+ background-color: Teal;
+}
+
+#H {
+ background-color: Orange;
+}
+
+#J {
+ background-color: Purple;
+}
+
+#K {
+ background-color: Red;
+}
+
+#L {
+ background-color: Blue;
+} */
+
 .key {
-  border: .4rem solid black;
+  border: .4rem solid white;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -26,16 +62,19 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: black;
+  background-color: white;
+  opacity: .8;
+  text-shadow: 0 0 .5rem white;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: red;
+  background-color: red;
+  box-shadow: 0 0 1rem white;
 }
+
 
 kbd {
   display: block;
