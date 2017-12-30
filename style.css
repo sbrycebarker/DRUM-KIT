@@ -17,6 +17,14 @@ body,html {
   justify-content: center;
 }
 
+#intructions {
+  height: 30px;
+  width: 400px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
 /* #A {
  background-color: red;
 }
